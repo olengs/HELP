@@ -1,0 +1,16 @@
+1. Go to Androidsdk\platform-tools and open cmd ( adb.exe )
+2. try adb connect xx.xx.xx.xx:5555 (xx.xx.xx.xx is device IP)
+
+if fail:
+
+Connect your device via USB and run:
+
+adb kill-server
+
+then run
+
+adb tcpip 5555
+
+you will see below message...
+
+daemon not running. starting it now on port 5037 * daemon started successfully * restarting in TCP mode port: 5555
