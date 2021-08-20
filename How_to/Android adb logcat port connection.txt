@@ -14,3 +14,7 @@ adb tcpip 5555
 you will see below message...
 
 daemon not running. starting it now on port 5037 * daemon started successfully * restarting in TCP mode port: 5555
+
+then adb connect XXX.XXX.XXX.XXX:5555
+
+when close adb disconnect XXX.XXX.XXX.XXX:5555
