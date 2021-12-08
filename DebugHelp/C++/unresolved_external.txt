@@ -1,0 +1,11 @@
+Error - Unresolved external 
+
+Cause :
+ 
+Normally caused by a function declaration having no definition
+
+Solve Steps:
+1. Find the function in the error
+2. Check whether the definition is defined
+3. if not defined, choose to either remove declaration or add definition
+4. Check linking of the declaration to the definition

@@ -1,5 +1,9 @@
-1. Go to Androidsdk\platform-tools and open cmd ( adb.exe )
-2. try adb connect xx.xx.xx.xx:5555 (xx.xx.xx.xx is device IP)
+Download Android Logcat in unity from package manager
+
+The following is the debug help for android logcat
+
+Go to Androidsdk\platform-tools and open cmd ( adb.exe )
+try adb connect xx.xx.xx.xx:5555 (xx.xx.xx.xx is device IP)
 
 if fail:
 
