@@ -2,8 +2,12 @@ Download Android Logcat in unity from package manager
 
 The following is the debug help for android logcat
 
+if u cant connect to android logcat through unity,
+
 Go to Androidsdk\platform-tools and open cmd ( adb.exe )
-try adb connect xx.xx.xx.xx:5555 (xx.xx.xx.xx is device IP)
+try adb connect xx.xx.xx.xx:5555 (xx.xx.xx.xx is device IP) 
+
+Android SDK folder by default is in C:\Users\<user-name>\AppData\Local\Android . And the AppData folder is hidden in windows. Enable show hidden files in folder option, and give a look inside that. Make sure all the folders are visible.
 
 if fail:
 
